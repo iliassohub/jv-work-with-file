@@ -39,7 +39,9 @@ public class WorkWithFile {
             BufferedWriter writer = new BufferedWriter(new FileWriter(toFileName));
             writer.write(report);
         } catch (IOException e) {
-            throw new RuntimeException("Can't read from file " + fromFileName + " or write to file " + toFileName, e);
+            throw new RuntimeException("Can't read from file " + fromFileName
+                    + " or write to file " + toFileName, e);
+
 
         }
     }
