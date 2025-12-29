@@ -33,9 +33,9 @@ public class WorkWithFile {
                     }
                 }
             }
-            String report = "supply," + supply + System.lineSeparator() +
-                    "buy," + buy + System.lineSeparator() +
-                    "result," + (supply - buy);
+            String report = "supply," + supply + System.lineSeparator()
+                    + "buy," + buy + System.lineSeparator()
+                    + "result," + (supply - buy);
             BufferedWriter writer = new BufferedWriter(new FileWriter(toFileName));
             writer.write(report);
         } catch (IOException e) {
