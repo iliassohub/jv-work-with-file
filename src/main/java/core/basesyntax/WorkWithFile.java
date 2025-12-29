@@ -8,8 +8,10 @@ import java.nio.file.Path;
 import java.util.List;
 
 public class WorkWithFile {
+
     private static final String SUPPLY_OPERATION = "supply";
     private static final String BUY_OPERATION = "buy";
+
     public void getStatistic(String fromFileName, String toFileName) {
         int supply = 0;
         int buy = 0;
