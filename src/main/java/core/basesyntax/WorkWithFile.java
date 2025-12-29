@@ -41,8 +41,6 @@ public class WorkWithFile {
         } catch (IOException e) {
             throw new RuntimeException("Can't read from file " + fromFileName
                     + " or write to file " + toFileName, e);
-
-
         }
     }
 }
